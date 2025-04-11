@@ -1,0 +1,39 @@
+# manifestVersion: 4.2.2 # Sau cea mai recentă versiune suportată
+PackageIdentifier: MoldSign # Un identificator unic, de exemplu "AutoritateaPentruSemnaturaElectronica.MoldSign"
+PackageVersion: <4.2.2> # De exemplu, "4.2.1"
+PackageLocale: ro-RO # Sau ro-RO dacă este disponibilă o descriere în română
+Publisher: <SERVICIUL TEHNOLOGIA INFORMAȚIEI ȘI SECURITATE CIBERNETICĂ> # De exemplu, "SERVICIUL TEHNOLOGIA INFORMAȚIEI ȘI SECURITATE CIBERNETICĂ"
+PackageName: MoldSign
+PackageUrl: <https://semnatura.md/products> # Dacă există
+License: <Freeware> # De exemplu, "Freeware"
+Copyright: <© STISC 2025> # De exemplu, "© [An] [Numele Autorității]"
+ShortDescription: Software oficial pentru semnătura electronică din Republica Moldova.
+Description: Descriere mai detaliată a funcționalității MoldSign.
+Moniker: moldsign # Un cuvânt cheie scurt pentru a căuta pachetul (opțional)
+Tags:
+- semnatura electronica
+- semnatura
+- oficial
+- MoldSign
+
+Installers:
+- Architecture: x86 # Sau x86 dacă este disponibilă o versiune pe 32 de biți
+  InstallerUrl: https://cdn.cts.md/moldsign/Dist/MoldSign_Install.exe # Linkul direct către programul de instalare
+  InstallerType: exe
+  InstallerSwitches:
+    Silent: /S # Sau alt switch pentru instalare silențioasă, dacă există
+    SilentWithNoUI: /S # Sau alt switch pentru instalare complet silențioasă, dacă există
+  InstallerSha256: <9271A4277EB27B4AE5FC5CF5879318B13878E1E97B3B7166D7BE882425394FC3> # Foarte important pentru securitate
+
+# Dacă există o versiune în română a descrierii
+# PackageLocale: ro-RO
+# ShortDescription: Software oficial pentru semnătura electronică din Republica Moldova.
+# Description: Descriere mai detaliată a funcționalității MoldSign în limba română.
+# Publisher: <SERVICIUL TEHNOLOGIA INFORMAȚIEI ȘI SECURITATE CIBERNETICĂ>
+# PackageName: MoldSign
+# PackageUrl: <https://cdn.cts.md/moldsign/Dist/MoldSign_Install.exe>
+# License: <Freeware>
+# Copyright: <© STISC 2025>
+
+ManifestType: installer
+ManifestVersion: 4.2.2 # Sau cea mai recentă versiune suportată
